@@ -1,0 +1,339 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+% {{{
+\usepackage[top=0.5in, bottom=0.3in, left=0.5in, right=0.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{palatino}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+% \usepackage{helvetica}
+% \usepackage{array}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=10.4in
+\raggedbottom
+% \raggedright
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.5cm}
+\renewcommand{\labelitemii}{$\circ$}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.375in}
+%\addtolength{\evensidemargin}{-0.375in}
+%\addtolength{\textwidth}{1.75in}
+%\addtolength{\topmargin}{0.1375in}
+%\addtolength{\textheight}{1.75in}
+\pagestyle{empty}
+% }}}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small
+        {
+            \begin{minipage}
+                {0.992\textwidth}\textbf{{\textsc{#1 \vphantom{p\^{E}} }}}
+                \\[-0.3cm]
+                \hrule
+            \end{minipage}
+            \\[-0.5cm]
+        }
+ }}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+    \textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+% \textit{#3} &  \\
+%-----------------------------------------------------------
+
+\begin{document}
+% %{{{
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% % \hspace{0.2cm}\\
+% % \hspace{0.2cm}\\
+% % \\
+% \hspace{0.5cm}\\
+% % \hspace{0.2cm}\\
+% % \hspace{0.2cm}\\
+% %}}}
+\renewcommand{\arraystretch}{1.2}
+
+\textbf{Sudhir Shinde} \hspace{6.5cm}   \\
+\indent Mechanical Engineering     \hspace{5.43cm}  \textbf{M.Tech} \\
+\indent \textbf{Indian Institute of Technology Bombay}  \hspace{2.9cm}  \textbf{Male} \\
+\indent Specialization: Computer Aided Design (CAD) \hspace{1.9cm}  \textbf{DOB: 05/05/1995}\\
+\indent Email-id : \textbf{sudhirshinde58@gmail.com} \\
+\indent Mobile No. : \textbf{+919404521215} \\
+% \indent Website: sites.google.com/view/sudhirshinde\\
+
+
+
+% \resheading{\textbf{\large Academic Details}}\\[\lsep]
+% \\ [-0.6cm]
+% \\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\noindent\begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\hline
+% \vspace{0.1cm}
+\textbf{Examination} & \textbf{University} & \textbf{Institute} & \textbf{Year} &                \hspace{1cm} \textbf{CPI/\%} \\
+[0.1cm]
+% \vspace{-0.1cm}
+\hline
+% \vspace{0.1cm}
+% \\
+Post Graduation & IIT Bombay & IIT Bombay & 2020 &  \hspace{1cm} 9.27 \\
+UnderGraduate Specialization: & \textit{Mechanical Engineering} \\
+Graduation & Pune University & Dr. D. Y. Patil Institute of Technology & 2016 &  \hspace{1cm} 79.67\\
+Diploma & MSBTE & PVP Institute of Technology &2013 &  \hspace{1cm} 82.99\\
+Matriculation  & Maharashtra state Board & Kharshing Highschool &2010 &  \hspace{1cm} 90.91
+\\[0.0001cm]
+\hline
+\end{tabular}
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\[-0.2cm]
+\vspace{-5.0cm}
+%{{{
+
+\noindent\resheading{\textbf{\large Technical Skills}}\\[\lsep]
+\\ [-0.2cm]
+%{{{
+    \begin{itemize}\itemsep \isep
+        \item \textbf{Programming \& Scripting Languages:}  C++, Python, MATLAB and R
+        \item \textbf{Tools and Technologies:} NumPy, Pandas, PyTorch, TensorFlow, Keras, Scikit-learn, OpenCV, Git
+        \item \textbf{Machine Learning \& Other Skills:} Classification, Neural Networks, CNN, Data Structures \& Algorithms
+    \end{itemize}
+%}}}
+\resheading{\textbf{\large Mtech Research}}\\[\lsep] 
+% {{{
+\\ [-0.2cm]
+\begin{itemize}
+\item \textbf{Defeaturing of CAD models using 3D Convolution Neural Network}  \\
+    \emph{M.Tech Project, Guide: Prof. Prof. S.S.Pande} \hfill \emph{(May'19-till date)}
+    \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item \textbf{Objective:} To extract features from CAD model and study its effect on Finite Element Analysis simulation
+	    \item Developing system to generate 10K 3D models with distinct topological features in Python
+	    \item Extracting features from CAD models using concept based \textbf{3D Convolution Neural Network}
+	    \item Aiming to reduce simulation computational time using \textbf{autoencoder} and \textbf{principal component analysis}
+    \end{itemize}
+
+\item \textbf{Application of Machine Learning in CAD/CAM} \\
+    \emph{M.Tech Seminar, Guide:  Prof. S.S.Pande}
+    \hfill \emph{(Jan'19-Apr'19)}
+    \\ [-0.6cm]
+      \begin{itemize}\itemsep \isep
+        \item Carried out literature survey of machine learning application in CAD/CAM and explored its implementation %methodologies
+     \item Studied research papers proposing applications such as feature recognition, defeaturing of CAD models
+    \item Explored CNN for analysis of 3D models and inspected key drawbacks present in the implementation
+	\end{itemize}
+\end{itemize}
+% }}}
+\resheading{\textbf{\large Machine Learning Projects}}\\[\lsep]
+\\[-0.2cm]
+%{{{
+\begin{itemize}
+
+\item \textbf{Machine Learning based Image Classification System to Analyze Changing Fashion Trends} \\(\emph{Course Project, Foundations of Machine Learning, Advisor: Prof. Ganesh Ramakrishnan)\hfill (Jul'18-Nov'18)}
+    \\ [-0.6cm]
+    \begin{itemize}\itemsep \isep
+    \item \textbf{Objective:} To classify shirts into various classes such as T-shirt, V-neck, Collar T-shirt classes
+    \item Pre-processing of videos involved face detection and neck region feature to create dataset by using \textbf{OpenCV}
+    \item Developed the shirt classification system using \textbf{KNN, SVM, CNN} with \textbf{Scikit-learn} and \textbf{TensorFlow} libraries
+    \item Achieved the \textbf{accuracy of 84\%} for all the classes using \textbf{AlexNet} architecture as a base framework
+    \end{itemize}
+
+\item \textbf{Development of ML Algorithm for Flood Prediction on Azure Cloud Service} \\
+\emph{(Microsoft Codefundo++)} \hfill \emph{(July'18-Oct'18)}
+    \\ [-0.6cm]
+    \begin{itemize}\itemsep \isep
+  \item \textbf{Objective:} Designing and deploying ML workflow (flood prediction) on \textbf{Azure Cloud Services}
+ %methodologies
+    \item Dataset gleaned from Indian meteorology websites comprised of features like historical rainfall \& altitude
+     \item Successfully completed all three stages and implemented web application on Azure Cloud Services
+    \end{itemize}
+
+\item \textbf{GPU accelerated implementation of Machine Learning algorithms using CUDA} \\
+(\emph{Course Project, High Performance Scientific Computing, Advisor: Prof. Shiva Gopalakrishnan)\hfill (Jan'19-Apr'19)}
+    \\ [-0.6cm]
+    \begin{itemize}\itemsep \isep
+    \item \textbf{Objective:} To implement the parallelization of \textbf{k-fold cross validation} for regression and classification
+    \item Defined CUDA kernels for \textbf{Linear Regression} and \textbf{Logistic Regression} using Gradient Descent algorithm
+    \item Achieved speed up of  \textbf{3.5X} for regression and \textbf{2.5X} for classification as compared with serial code
+    \end{itemize}
+
+\item \textbf{Implementation of Neural Network based Classifier} \\ 
+(\emph{Course Project, Foundations of Machine Learning, Advisor: Prof. Ganesh Ramakrishnan)\hfill (July'18-Nov'18)}
+    \\ [-0.6cm]
+    \begin{itemize}\itemsep \isep
+   \item \textbf{Objective:} Implement Neural Network from scratch to classify the Facebook comments into 5 categories %using the Back Propagation Algorithm
+    \item Implemented NN architecture using \textbf{NumPy, Pandas} library and trained using Back Propagation Algorithm
+    \item Improved accuracy by using different activation functions along with hyper-parameters tuning
+\end{itemize}
+\newpage
+\item \textbf{Pattern Recognition among Data using Machine Learning}\\ 
+(\emph{Course Project, Engineering Data Mining and Applications, Advisor: Prof. Vinay Kulkarni)\hfill (July'18-Nov'18)}
+\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+% 	\item Data preprocessing involved handling missing data, feature selection, normalization \& one hot encoding  %using the Back Propagation Algorithm
+    % \item Compared accuracy of strategies like \textbf{Bagging, Boosting} \& \textbf{Random Forests} on test dataset
+    \item Data preprocessing involved replacing missing data using regression tree
+    and KNN 
+    \item  Compared there performance using R-square, Adj. R, P-value, F-Stat and root mean square error
+    \end{itemize}
+\end{itemize}
+\resheading{\textbf{\large Technical Projects}}\\[\lsep] 
+% {{{
+\\ [-0.2cm]
+\begin{itemize}
+\item \textbf{Mahindra Rise Driverless Car Challenge}  \\
+    (\emph{Innovation Cell, IIT Bombay)\hfill (Dec'18-Apr'19)}
+    \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Part of a team of \textbf{20 members} aiming to build Self Driving Car; India's \textbf{1st} driverless car
+    \item One of the \textbf{11 finalists} out of 259 teams (IV Level) and received a \textbf{Mahindra E2O Car} for further development
+     \item Headed the mechatronics subsystem to design mechanisms to mount LIDAR, Camera on the car 
+    \item Led fabrication of movable mechanism to mount \textbf{3D LIDAR} on the car to scan the environment 
+    \end{itemize}
+
+\item \textbf{Voxelization of 3D model and Cutting Forces Prediction} \\
+\emph{(Course Project, Computer Graphics and Product Modelling, Advisor: Prof. S.S.Pande)\hfill (Jul'18-Nov'18)}
+    \\ [-0.6cm]
+      \begin{itemize}\itemsep \isep
+  \item \textbf{Objective:} To develop voxelization algorithm of 3D CAD model for visualization using \textbf{OpenGL}
+    \item Predicted the cutting forces and material removal rate during machining using voxelized CAD model
+	\end{itemize}
+% \end{itemize}
+% }}}    
+    
+% \pagebreak
+
+% \vspace{-0.2cm}
+% \pagebreak
+% \item \textbf{Devanagari Character Recognition using Feed Forward Neural Network in Tensorflow} \\ {\emph{(CS621: Artificial Intelligence, Guide: Prof. G. Sivakumar)}} \hfill {\emph{(November 2017)}}
+%     \\ [-0.6cm]
+%     \begin{itemize}\itemsep \isep
+%     \item Objective was to recognize 46 handwritten Devanagari characters present in 28 x 28 PNG image using NN
+%     \item Achieved \textbf{98.68\%} accuracy after training a single hidden layer neural network on 92000 samples
+%     \end{itemize}
+
+\end{itemize}
+%}}}
+%  \vspace{0.05cm}
+\resheading{\textbf{\large Work Experience}}\\[\lsep]
+\\[-0.2cm]
+% {{{
+\begin{itemize}
+    \item \textbf{CEAT Ltd, Vadodara}\\
+\emph{(Graduate Engineer Trainee)} \hfill \emph{(Jul'16-Jul'17)}
+        \\ [-0.6cm]
+        \begin{itemize}\itemsep \isep
+	\item Worked with design and product development team to provide analysis led design solution
+	\item Increased \textbf{productivity by 5\%} through implementing projects such as \textbf{optimization} of tire and its components
+	\item Studied the effect of friction on contact patch area and dimensions of tire
+% 	\item Implemented projects such as optimization of turn up height, Effect of Friction on Foot Print shape and dimensions which results in increasing Productivity by 5\%
+	\item Hands on experience to do the simulation and post-processing of tire with scripting in \textbf{Abaqus} software
+	%\item \emph{Current work:} Studied various existing dependency parsers and implementing a neural network dependency parser to validate the verb structure by feeding the different set of requirements from different programs
+   % \item \emph{Future work:} Disambiguate the high-level and low-level natural language requirements. Perform an automatic requirement analysis (consistency and completeness) using NuXMV, PVS, SLDV, and Astree
+    \end{itemize}
+\end{itemize}
+% }}}
+% \\[-.6cm]
+\vspace{-0.1cm}
+\resheading{\textbf{\large Courses Taken }}\\[\lsep]
+\\[-0.2cm]
+%{{{
+\begin{itemize}
+    \item[] \begin{tabular}{p{9cm}p{9cm}l }
+    Foundations of Machine Learning & Robotics\\ 
+    Engineering Data Mining and Applications(Audit) & Computer Graphics \& Product Modelling \\
+    % \end{tabular}
+    % \vspace{-0.25cm}
+    % \item[] \begin{tabular}{p{11cm}p{11cm}l }
+    High Performance Scientific Computing & Mathematical Methods in Engineering
+    \end{tabular}
+\end{itemize}
+%}}} 
+% \pagebreak
+\resheading{\textbf{\large Positions of Responsibility}}\\[\lsep] 
+\\[-0.2cm]
+%{{{
+\begin{itemize}\itemsep \isep
+  \item \textbf{Teaching Assistant, IIT Bombay} \emph{(Prof. S.S.Pande)}\\[-0.6cm]
+    	\begin{itemize}
+            \item \textbf{Computer Graphics and Product Modelling} \hfill\emph{(Apr'19-till date)}
+            % \begin{itemize}
+                % \item Mentored students, invigilation and evaluation of Graded Labs, Exams
+                \\
+                 Assisted Bachelor and Master students to clear their difficulties, also helping the professor in evaluation
+                % ng assignments and examinations.
+            % \end{itemize}
+        	\item \textbf{Materials Processing and Simulation Laboratory} \hfill\emph{(Jul'18-till date)} 
+        	\\
+        Worked in a team to mentor students, evaluated exams and provided assistance in the course
+    	\end{itemize}
+  \item \textbf{Mentor ITSP, IIT Bombay} \hfill\emph{(May'19-July'19)}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+         \item Guided \textbf{8 students} on the topics OCR recognition, handwritten character recognition using \textbf{Deep Learning}
+            \item Provided the basic training of Python and Machine Learning to students
+            \end{itemize}
+     \item \textbf{Campus Ambassador, InterviewBit} \hfill\emph{(May'19-till date)}\\[-0.6cm]
+    \begin{itemize}
+          \item Organized coding competitions to help students for campus placement preparation
+            \end{itemize}
+            
+\end{itemize}
+% \vspace{-0.1cm}
+%}}}
+\resheading{\textbf{\large Achievements \& Extracurricular Activities}}\\[\lsep]
+\\[-0.2cm]
+\begin{itemize}\itemsep \isep
+     \item Secured \textbf{Gold level} position in the \textbf{2019 WorldQuant Challenge} organised by WorldQuant VRC \hfill\emph{(2019)}
+    
+    \item Achieved \textbf{Rank 1 on Kaggle} among 112 students for Machine Learning Challenge \hfill\emph{(2018)}
+    \item Secured \textbf{Department Rank 1} among 210 students of UG 2016 batch \hfill\emph{(2016)}
+    \item Secured \textbf{Department Rank 3} in Diploma of 2012 batch \hfill\emph{(2016)}
+    \item Represented IIT Bombay in \textbf{Microsoft Codefundo++} and completed all three stages of the competition \hfill\emph{(2018)}
+   \item Attended 3 days \textbf{GPU} bootcamp using CUDA conducted by \textbf{NVIDIA} \hfill\emph{(2019)}
+   
+    \item Scored \textbf{99.31} percentile in GATE 2018 ME among \textbf{194,496} candidates\hfill\emph{(2018)}
+
+    \item  Completed \textbf{Neural Networks and Deep Learning} course by DeepLearning.ai on Coursera \hfill\emph{(2019)}
+    \item Volunteered for \textbf{Python Workshop} conducted by PG Academic Council \hfill\emph{(2018)}
+    \item Participated in \textbf{AVISHKAR} Zonal level Research Project Competition organized by Pune University \hfill\emph{(2015)}
+\end{itemize}
+\resheading{\textbf{\large Interest \& Hobbies}}\\[\lsep] 
+\\[-0.2cm]
+%{{{
+\begin{itemize}
+ \item Swimming, Badminton, Cricket
+\end{itemize}
+
+\end{document}
+

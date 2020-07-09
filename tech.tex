@@ -1,0 +1,281 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.35in, right=0.35in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage{multicol} 
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=10.5in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.99\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\[-0.2cm]
+
+
+\noindent
+\resheading{\textbf{WORK EXPERIENCE \& INTERNSHIP}}\\[-0.5cm]
+\begin{itemize}%[noitemsep,nolistsep]
+
+\item \textbf{CEAT Ltd, Vadodara}\\
+\emph{(Graduate Engineer Trainee)} \hfill \emph{(Jul'16-Jul'17)}
+	\begin{itemize}[noitemsep,nolistsep]
+	\item Worked closely with design and product development team to provide analysis led design solution
+	\item Implemented projects like Optimization of turn up height, Effect of Friction on Foot Print shape and dimensions, results in increasing Productivity by 5\%
+	\item Hands on experience to do the simulation and post-processing of Tyre with scripting in \textbf{Abaqus} software
+	\item \noindent \textbf{Tools/Languages used:} Abaqus, HyperMesh, AutoCAD
+    %\item \emph{Current work:} Studied various existing dependency parsers and implementing a neural network dependency parser to validate the verb structure by feeding the different set of requirements from different programs
+   % \item \emph{Future work:} Disambiguate the high-level and low-level natural language requirements. Perform an automatic requirement analysis (consistency and completeness) using NuXMV, PVS, SLDV, and Astree
+    \end{itemize}
+    
+\item \textbf{Ador Welding Ltd, Pune} \\
+\emph{(Internship)} \hfill \emph{(Jan'19-Apr'19)}
+	\begin{itemize}[noitemsep,nolistsep]
+    \item Studied the overall business of Ador Welding to evaluate the strategic position of the business brand portfolio and used BCG matrix framework to know its potential
+    \item Successfully build Automatic Welding Machine which involves the design and manufacturing of machine
+    %\item Implemented Price, Fundamental and other datasets, Decay, Neutralization, Universe, Turnover, Drawdown
+	\end{itemize}
+\end{itemize}
+
+\noindent
+\resheading{\textbf{M.TECH. RESEARCH}}\\[-0.5cm]
+\begin{itemize}%[noitemsep,nolistsep]
+
+\item \textbf{Evaluation of simulation models preparation processes using Machine Learning}\\
+\emph{(M.Tech. Project, Advisor: \textbf{Prof. S.S.Pande})} \hfill \emph{(May'19-till date)}
+	\begin{itemize}[noitemsep,nolistsep]
+	\item nalyze the effect of simulation model preparation process on the results and predict the variation in the result
+	\item Developed \textbf{Python} code to generate 5000 CAD models with different features on it along with simulation results
+	\item Trained 3D Convolution Neural Network(CNN) to classify the results into 5 classes with accuracy of \textbf{82\%}   
+	\item \textit{Future Work:} Implement more features in the dataset and develop API to predict the \% variation in the result
+    %\item \emph{Current work:} Studied various existing dependency parsers and implementing a neural network dependency parser to validate the verb structure by feeding the different set of requirements from different programs
+   % \item \emph{Future work:} Disambiguate the high-level and low-level natural language requirements. Perform an automatic requirement analysis (consistency and completeness) using NuXMV, PVS, SLDV, and Astree
+    \end{itemize}
+    
+\item \textbf{Application of Machine Learning in CAD/CAM} \\
+\emph{(M.Tech. Seminar, Advisor: \textbf{Prof. S.S.Pande})} \hfill \emph{(Jan'19-Apr'19)}
+	\begin{itemize}[noitemsep,nolistsep]
+    \item Carried out the literature survey of various application of machine learning and explored its implementation %methodologies
+    \item Inspected the key drawbacks present in the current implementation of machine learning in CAD applications
+    \item Studied research papers proposing applications such as feature recognition, defeaturing of CAD models
+	\end{itemize}
+\end{itemize}
+
+
+
+\noindent\resheading{\textbf{COURSE PROJECTS} }\\[-0.3cm]
+\begin{itemize}%[noitemsep,nolistsep]
+
+% \item \textbf{Machine Learning based Image Classification system to predict changing fashion trends}\\
+% (\emph{Foundations of Machine Learning, Advisor: \textbf{Prof. Ganesh Ramakrishnan})\hfill (Jul’18-Nov'18)} \\[-0.4cm]
+% 	\begin{itemize}[noitemsep,nolistsep]
+%     \item \textbf{Objective:} To classify fashion items into classes viz. Clothing, Footwear, Glasses and into their sub-classes such as Round neck shirt, Collar Shirt, Colour using KNN, SVM and CNN
+%     %\item Implemented and compared the accuracy of different classification models of KNN, SVM and CNN
+%     \item Achieved a \textbf{F1 score of 0.79} with a CNN architecture for feature extraction and classification
+%     \item \textbf{Tool(s)/Language(s) used:} Python, OpenCV, TensorFlow
+% 	\end{itemize}
+	
+\item \textbf{GPU accelerated implemetation of Machine Learning algorithms using CUDA}\\
+(\emph{High Performance Scientific Computing, Advisor: \textbf{Prof. Shivasubramanian Gopalakrishnan})\hfill (Jan'19-Apr’19)} \\[-0.4cm]
+	\begin{itemize}[noitemsep,nolistsep]
+	\item \textbf{Objective:} Implement the K-fold cross validation for parallel computation on GPU
+    \item Defined CUDA kernel in C to run the code in  parallel for linear and logistic regression
+    \item Achieved \textbf{3 times} faster speed up with only 1000 data points and helpful for all machine learning algorithms
+    \item \textbf{Tool(s)/Language(s) used:} C, CUDA
+	\end{itemize}
+	
+\item \textbf{Implementation of Feed Forward Neural Network based Classifier from Scratch} \\ 
+(\emph{Foundations of Machine Learning, Advisor: \textbf{Prof. Preethi Jyothi})\hfill (Jan'18-Apr’18)} \\[-0.4cm]
+	\begin{itemize}[noitemsep,nolistsep]
+	\item \textbf{Objective:} Implement Neural Network from scratch to classify the Facebook comments into 5 classes %using the Back Propagation Algorithm
+    \item Done the Hyper parameter tuning by changing no. of neurons, layers and epoch
+    \item Done the optimization by using various activation functions with momentum gradient descent
+    \item \textbf{Tool(s)/Language(s) used:} Python, NumPy, Pandas
+	\end{itemize}
+
+\item \textbf{Facebook Comment Predictor using Supervised Learning Technique}\\
+\emph{(Foundations of Machine Learning, Advisor: \textbf{Prof. Preethi Jyothi})\hfill (Jan'18-Apr’18)} \\[-0.4cm]
+	\begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Objective:} Implement the gradient descent algorithm for L2 regularized linear regression from scratch
+    \item Hyperparameter tuning to reduce the mean square error(MSE) on test data and avoid overfitting
+    \item Achieved the highest accuracy with the \textbf{1st position on Kaggle} in class competition
+    \item \textbf{Tool(s)/Language(s) used:} Python, NumPy, Pandas
+	\end{itemize}
+
+%\clearpage
+
+\item \textbf{Voxelization of Part Machining Algorithm and Cutting Forces Prediction}\\
+\emph{(Computer Graphics and Product Modelling, Advisor: \textbf{Prof. S.S.Pande)}\hfill (Jul'18-Nov’18)} \\[-0.4cm]
+	\begin{itemize}[noitemsep,nolistsep]
+	%\item \textbf{Objective:} Program an NN to identify the handwritten Devanagari character present in 28 x 28 PNG image
+    \item Developed a voxelised model algorithm for visualization of CAD Model
+    \item Voxels are then used to predict the cutting force and material removal rate during machining
+    \item Done the visualization of workpiece and removal of voxels to show the machining
+    \item \textbf{Tool(s)/Language(s) used:} Python, PyOpenGL
+	\end{itemize}
+	
+\item \textbf{Kinematic and Dynamic simulation of Robotic Arm Mechanism} \\
+\emph{(Computer-aided simulation of Machines, Advisor: \textbf{Prof. Anirban Guha})\hfill (Jan’18-Apr'18)} \\[-0.4cm]
+	\begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Objective:} Do the Modelling and simulation of Robotic Arm in ADAMs software
+    \item Done the comparison of theoretical Kinematic parameters with the simulated model
+    \item Done the comparison of static force analysis with the simulated model
+    \item \textbf{Tool(s)/Language(s) used:} ADAMS
+	\end{itemize}
+
+\item \textbf{Upgradation of Turbo ventilator using Experimental setup and Computational Fluid Dynamics(CFD)} \\
+\emph{(B.Tech. Project, Advisor: \textbf{Prof. P. M. Ghanegaokar})\hfill (Feb'15-Apr'16)} \\[-0.4cm]
+	\begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Objective:} To study the effect of blade angles on the performance of the Turbo Ventilator
+    \item Completed numerical analysis using CFD to investigate both internal and external flows around the ventilator
+        \item Achieved performance improvement by \textbf{10\%} after implementing turbo prop into ventilator 
+   % \item Programmed the locomotion and game moves (service, pass, and smash) of the robot on \textbf{Arduino}
+    \item \textbf{Tool(s)/Language(s) used:} ANSYS
+	\end{itemize}
+\end{itemize}
+
+\noindent\resheading{\textbf{MAJOR COURSES TAKEN}}\\[-0.6cm]
+\begin{multicols}{2}
+    \begin{itemize}[noitemsep,nolistsep]
+        \item Computer aided simulation of machines
+        \item Robotics
+        \item High Performance Scientific Computing
+        %\item Foundations of Network Security and Cryptography
+        \item Finite Element Methods
+        \item Computer Graphics and Product Modelling
+        \item Mathematical Methods in Engineering
+        %\item Advanced Network Security and Cryptography
+    \end{itemize}
+    \end{multicols}
+\vspace{-0.2cm}
+% \noindent\resheading{\textbf{MAJOR COURSES TAKEN}}\\[-0.4cm]
+% \begin{itemize}
+%   \item[] \textbf{*} Foundation of Machine Learning   \qquad \textbf{*} Advanced Machine Learning \qquad \textbf{*} Mobile Computing
+%   \vspace{-0.2cm}
+%   \item[] \textbf{*} Foundations of Network Security and Cryptography  & \qquad \textbf{*} Advanced Network Security and Cryptography
+%   \vspace{-0.2cm}
+%   \item[] \textbf{*} Artificial Intelligence  \qquad \textbf{*} Algorithms and Complexity \qquad \textbf{*} Software Engineering
+% \end{itemize}
+
+\noindent\resheading{\textbf{POSITIONS OF RESPONSIBILITY}}\\[-0.2cm]
+\begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Teaching Assistant, IIT Bombay} \emph{(Prof. S.S.Pande)}\\[-0.4cm]
+    	\begin{itemize}[noitemsep,nolistsep]
+        	\item Intelligent Manufacturing Systems Lab  \hfill\emph{(Jul'18-Nov'18)} %\\
+        % 	Mentored 14 UG students in C++ programming as a Junior Teaching Assistant
+            \item Computer Numerical control and Programming \hfill\emph{(Jan'19-Apr'19)} %\\
+        % 	Worked in tandem with 6 other TAs and resolved doubts of students via Moodle discussion forum
+        	\item Materials Processing and Simulation Laboratory \hfill\emph{(Jul'19-till date)} %\\
+        % 	Helping students during class lectures and conducting weekly help sessions to resolve doubts
+    	\end{itemize}
+    \item \textbf{Class Representative, DYPIET Pune} \hfill\emph{(Jul'13-May'16)}\\[-0.4cm]
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Represented a class of 120 students in the Student Council during the second, third and forth year of engineering
+            % \item Organized small-scale workshops and formulated policies for the development of the department
+        \end{itemize}
+    \item \textbf{Coordinator, TechFest}
+    \hfill\emph{(Nov'18-Dec'18)}\\[-0.4cm]
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Managed Boeing AeroModelling competition of 200 participants and checked thrust to weight ratio
+        \end{itemize}
+%    \item \textbf{Spoken Tutorial Coordinator, GCOE Avasari}
+ %   \hfill\emph{(Jul'14-May'15)}\\[-0.4cm]
+  %      \begin{itemize}[noitemsep,nolistsep]
+          %  \item Hosted tutorials on open source technologies and conducted online quizzes for the department
+   %     \end{itemize}
+   % \item \textbf{Member of Alumni Association, GCOE Avasari}
+   % \hfill\emph{(Jul'17-till date)}\\[-0.4cm]
+    %    \begin{itemize}[noitemsep,nolistsep]
+     %       \item Acting as an interface between the alumni and the current batch of GCOE Avasari
+      %  \end{itemize}    
+\end{itemize} 
+\vspace{0.2cm}
+\noindent\resheading{\textbf{TECHNICAL SKILLS}}\\[-0.2cm]
+     \begin{itemize}[noitemsep,nolistsep]
+        \item \textbf{Programming and Scripting Languages:}  C++, Python, MATLAB
+      
+        \item \textbf{Tools and Technologies:} CUDA, \LaTeX , OpenMP
+        \item \textbf{CAE Software's:} Abaqus, ANSYS, ADAMS
+          \item \textbf{CAD/CAM Packages:} SolidWorks, CATIA, Mastercam
+    \end{itemize}
+  \vspace{0.2cm}
+\noindent\resheading{\textbf{ACHIEVEMENTS \& EXTRACURRICULAR ACTIVITIES}}\\[-0.2cm]
+\begin{itemize}[noitemsep,nolistsep]
+\setlength\itemsep{0.0001em}
+    \item Completed \textbf{Neural Networks and Deep Learning} course by DeepLearning.ai on Coursera \hfill\emph{(2019)}
+    \item Scored \textbf{99.31} percentile in GATE 2018 ME among \textbf{194,496} candidates\hfill\emph{(2018)}
+    % \item Achieved \textbf{All India Rank 92} in the Indian Engineering Olympiad\hfill\emph{(2016)}
+    %\item Currently \textbf{Department Rank 10} among 100 students of M.Tech. Computer Science and Engineering \hfill\emph{(2018)}
+    \item Secured \textbf{Department Rank 1} among 210 students of UG 2016 batch \hfill\emph{(2016)}
+     \item Secured \textbf{Department Rank 3rd} in Diploma of 2012 batch \hfill\emph{(2012)}
+    \item Achieved \textbf{Gold level} position in the \textbf{2019 WorldQuant challenge} organised by WorldQuant VRC \hfill\emph{(2019)}
+    \item Participated in \textbf{Microsoft Codefundo++ 2018} and successfully completed Natural Disaster Prediction using Machine Learning project (only 6 team completed project from IITB) \hfill\emph{(2018)}
+    \item InterviewBit \textbf{Campus Ambassador} to help students for campus placement preparation by conducting workshops and organizing coding competitions \hfill\emph{(2019)}
+    \item Volunteered for \textbf{Python Workshop} conducted by PG Academic Council \hfill\emph{(2018)}
+   % \item Awarded a \textbf{Bronze Medal} in HourRank 29 - Coding competition on HackerRank (1900+ participants) \hfill\emph{(2018)}
+    %\item Qualified for the Semi-Final of \textbf{IT Olympiad 2016} in Student Category\hfill\emph{(2016)}
+    \item Successfully completed \textbf{108 SURYANAMASKAR CHALLENGE} on the International Day of Yoga\hfill\emph{(2017)}
+    \item Participated in National level \textbf{SAE BAJA-2014} competition \hfill\emph{(2014)}
+    \item Attended State level Workshop on Numerical Methods Applied to Heat Transfer Problems and its Programming\hfill\emph{(2014)}
+    %\item \textbf{AMCAT Topper} for the quarter Aug'16 to Oct'16 and certified to do well in IT role\hfill\emph{(2016)}
+    %\item Represented JNV Raigad in \textbf{Regional Chess Championship} 2009 and 2011\hfill\emph{(2009, 2011)}
+    %\item Qualified Jawahar Navodaya Vidyalaya Selection Test (in \textbf{top 3\%} among \textbf{1.1 Million} candidates) \hfill\emph{(2006)}
+%    \item \textbf{Hobbies:} Swimming, Badminton, playing and watching cricket. Watching TV Series
+    % \item \textbf{Hobbies:} Listening Music, Programming
+    % \item h
+    % \item h
+\end{itemize}
+  \vspace{0.2cm}
+
+\noindent\resheading{\textbf{INTEREST AND HOBBIES}}\\[-0.2cm]
+\begin{itemize}[noitemsep,nolistsep]
+\setlength\itemsep{0.0001em}
+    \item Swimming, Badminton, Cricket
+\end{itemize}
+% \resheading{\textbf{INTERESTS AND HOBBIES}}\\[-0.2cm]
+%  \begin{itemize}[noitemsep,nolistsep]
+%  	\item Programming, Playing Cricket, Listening Music, Gaming, Traveling
+%   \end{itemize}
+\end{document}
